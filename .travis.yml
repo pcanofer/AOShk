@@ -1,0 +1,7 @@
+language: node_js
+node_js:
+ - "node"
+deploy:
+- provider=Heroku
+- api_key=a0687666-5c9e-40cc-811b-5260d6fe0431
+- app: notes-aos1
